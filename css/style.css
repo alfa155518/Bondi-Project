@@ -1,0 +1,116 @@
+:root {
+    --dark-color:#19283f;
+    --green-color:#33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;  
+}
+
+body {
+    font-family: Arial,"Roboto", sans-serif;
+}
+
+.main-btn {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+    color: var(--yellow-color);
+}
+
+.navbar {
+    background-color: var(--dark-color);
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+    color: var(--green-color);
+}
+.navbar-toggler {
+    box-shadow: none;
+}
+
+.search svg {
+    color: #FFF;
+    cursor: pointer;
+    font-size: 17px;
+    color: var(--green-color);
+}
+.search  {
+    border-left: 1px solid var(--green-color);
+}
+
+.landing {
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 72px);
+}
+
+.sec-head span {
+    border-bottom: 2px solid var(--green-color);
+}
+
+.features .icon-holder svg {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.features .icon-holder {
+    height: 200px;
+}
+
+.icon-holder .number {
+    font-size: 12rem;
+    color: var(--section-color);
+}
+
+.feat .icon {
+    color: var(--green-color);
+}
+
+.links .nav-link.active {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+}
+.our-work {
+    background-color: var(--section-color);
+}
+.white {
+    background-color: #FFF;
+}
+.our-work .box {
+    background-color: #FFF;
+}
+
+.description {
+    max-width: 500px;
+}
+
+.team {
+    background-color: var(--section-color);
+}
+
+.project {
+    background-color: var(--dark-color);
+}
+
+.subscribe input[type="text"] {
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.subscribe input[type="text"]:focus {
+    outline: none;
+}
+
+.subscribe ::placeholder {
+    color: white;
+}
+
+.footer {
+    background-color: var(--dark-color);
+}
